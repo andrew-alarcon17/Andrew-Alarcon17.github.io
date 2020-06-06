@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science Portfolio on Andrew Alarcon</title>
+    <link>https://Example.github.io/</link>
+    <description>Recent content in Data Science Portfolio on Andrew Alarcon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 May 2020 11:25:05 -0400</lastBuildDate>
+    
+	<atom:link href="https://Example.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://Example.github.io/about/</link>
+      <pubDate>Sat, 06 Jun 2020 18:21:24 -0400</pubDate>
+      
+      <guid>https://Example.github.io/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project 6: Credit Risk Modeling</title>
+      <link>https://Example.github.io/post/project-6/</link>
+      <pubDate>Sat, 30 May 2020 11:25:05 -0400</pubDate>
+      
+      <guid>https://Example.github.io/post/project-6/</guid>
+      <description>About the Data This data contains information about consumer loans in 2015 by a company called Lending Club. Features in this data include credit scores, number of finance inquiries, address including zip codes, and state, and many others. The file is a matrix of about 421 thousand observations and 74 variables.
+Project Summary For this project, I will be exploring a dataset of debtors (borrowers) in order to try to compute three main components:</description>
+    </item>
+    
+    <item>
+      <title>Project 5: Breast Cancer Prediction</title>
+      <link>https://Example.github.io/post/project-5/</link>
+      <pubDate>Fri, 17 Apr 2020 11:15:58 -0400</pubDate>
+      
+      <guid>https://Example.github.io/post/project-5/</guid>
+      <description>Background As someone who is driven in understanding what the chances of a disease having serious effect on a person would be, I wanted to be able to dive into this dataset to understand the probabilities of breast cancer being benign or malignant based on characteristics that will be focused on.
+Findings For each respective mean in the four charts above, we see that Area, Compactness, Concavity, and Concave all seem to have a probability of being benign at the lower values of their x-axes.</description>
+    </item>
+    
+    <item>
+      <title>Project 4: Covid-19 Analysis</title>
+      <link>https://Example.github.io/post/project-4/</link>
+      <pubDate>Mon, 30 Mar 2020 11:14:48 -0400</pubDate>
+      
+      <guid>https://Example.github.io/post/project-4/</guid>
+      <description>Background As of March 26th, 2020, the purpose of this notebook is to understand the growth rate of the Covid-19 virus in China and the U.S, and how they differ. Information is also extracted from the data about the countries that have been mostly impacted with confirmed cases of the virus.
+  Politics aside, let&amp;rsquo;s say the numbers for confirmed cases of the virus coming from China are true. We can clearly see that the U.</description>
+    </item>
+    
+    <item>
+      <title>Project 3: Predicting Pitchfork Music Review Scores with NLP</title>
+      <link>https://Example.github.io/post/project-3/</link>
+      <pubDate>Thu, 20 Jun 2019 11:13:32 -0400</pubDate>
+      
+      <guid>https://Example.github.io/post/project-3/</guid>
+      <description>Goal As someone who reads Pitchfork reviews very often, I wanted to see how sepcific language in these written reviews reflects whether or not an album is considered good or bad. To do this, I constructed a bag of words model in order to classify these albums.
+Steps Taken   We define an ablum being good as having a score of anything above 6.5, and bad with anything lower than 6.</description>
+    </item>
+    
+    <item>
+      <title>Project 2: Pitchfork Music Reviews - Data Analysis</title>
+      <link>https://Example.github.io/post/project-2/</link>
+      <pubDate>Mon, 10 Jun 2019 11:00:59 -0400</pubDate>
+      
+      <guid>https://Example.github.io/post/project-2/</guid>
+      <description>Analysis of Pitchfork Reviews I&amp;rsquo;m an avid viewer of Pitchfork music reviews, and I wanted to dive deeper into their album scores and how they vary from genre to genre, and year by year. I also wanted to see if there exists a correlation between review length and the score of the review, and also the variation of scores from who wrote the reviews.
+  Here, its worth noting that records containing music labeled as &amp;lsquo;Best New Music&amp;rsquo; were rated with a score of 8 and above.</description>
+    </item>
+    
+    <item>
+      <title>Project 1: Diamond Quality</title>
+      <link>https://Example.github.io/post/project-1/</link>
+      <pubDate>Wed, 01 May 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://Example.github.io/post/project-1/</guid>
+      <description>Data Description This data set contains prices and attributes of 50,0000 diamonds.
+Background This notebook contains exploratory analysis of the data. Distributions of variables were analyzed in order to understand their relationships with diamond price. Important questions such as which feature affects the price of the diamond the most and vice versa will be discussed.
+Regressions were made and measured on certain features in order to have a better understanding of how these features explain the price of a diamond.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://Example.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Example.github.io/contact/</guid>
+      <description>Here are my social media platforms.
+   Platform URL     Github: https://github.com/andrew-alarcon17   LinkedIn: https://www.linkedin.com/in/andrewalarcon17/    </description>
+    </item>
+    
+  </channel>
+</rss>
