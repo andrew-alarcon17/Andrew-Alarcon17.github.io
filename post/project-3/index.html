@@ -36,7 +36,7 @@
 <meta itemprop="description" content="Monsieur the Cardinal">
 <meta itemprop="datePublished" content="2019-06-20T11:13:32-04:00" />
 <meta itemprop="dateModified" content="2019-06-20T11:13:32-04:00" />
-<meta itemprop="wordCount" content="164">
+<meta itemprop="wordCount" content="231">
 
 
 
@@ -192,15 +192,17 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="goal">Goal</h2>
-<p>As someone who reads Pitchfork reviews very often, I wanted to see how sepcific language in these written reviews reflects whether or not an album is considered good or bad. To do this, I constructed a bag of words model in order to classify these albums.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="data-description">Data Description</h2>
+<p>This is a data set of music reviews from the website Pitchfork.com. The data contains features such as artists, labels, review content, review scores, year, etc.</p>
+<h2 id="background">Background</h2>
+<p>As someone who reads Pitchfork reviews very often, I wanted to see how specific language in these written reviews reflects whether or not an album is considered good or bad. To do this, I constructed a bag of words model in order to classify these albums.</p>
 <h2 id="steps-taken">Steps Taken</h2>
 <ul>
 <li>
-<p>We define an ablum being good as having a score of anything above 6.5, and bad with anything lower than 6.5.</p>
+<p>We define an album being good as having a score of anything above 6.5, and bad with anything lower than 6.5.</p>
 </li>
 <li>
-<p>The scores column is then converted to binary (1 is good, 0 is bad) in order to make classificaiton simpler.</p>
+<p>The scores column is then converted to binary (1 is good, 0 is bad) in order to make classification simpler.</p>
 </li>
 <li>
 <p>The dataset was converted from a csv to a tsv in order to create a bag of words model.</p>
@@ -209,11 +211,12 @@
 <p>After the bag of words model is created, several classification techniques were ran on the data to see which would be best in predicting if a record was good or bad based on the written reviews.</p>
 </li>
 </ul>
+<h2 id="conclusion">Conclusion</h2>
 <figure>
     <img src="https://andrew-alarcon17.github.io/Pitchfork_NLP/Random%20Forest.png"/> 
 </figure>
 
-<p>Here we see the performance of a Random Forest Classifier, with an accuracy of 85%.</p>
+<p>Using Natural Language Processing, we were able to create a bag of words model containing information on the written reviews for records. Using this information, a Random Forest Classifier was created in order to predict the score of an album based on the language used in the review with an accuracy of 85%!</p>
 <p><a href="https://github.com/andrew-alarcon17/NLP_Pitchfork_Reviews">Link to Github Repository</a></p>
 <ul class="pa0">
   
