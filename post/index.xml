@@ -22,6 +22,16 @@ Project Summary: For this project, I will be exploring a dataset of debtors (bor
     </item>
     
     <item>
+      <title>Project 7: Image Classification using CNN</title>
+      <link>https://andrew-alarcon17.github.io/post/project-7/</link>
+      <pubDate>Sat, 30 May 2020 11:25:05 -0400</pubDate>
+      
+      <guid>https://andrew-alarcon17.github.io/post/project-7/</guid>
+      <description>Data Description: This data contains images that belong to the following 10 classes: -Airplanes -Cars -Birds -Cats -Deer -Dogs -Frogs -Horses -Ships -Trucks There are 6,000 images for each class, and each image has a low resolution. Here are a few examples of how the images look:
+  Project Summary: For this project, I will be creating a Convolutional Neural Network that will be able to classify the images in the data set.</description>
+    </item>
+    
+    <item>
       <title>Project 5: Breast Cancer Prediction</title>
       <link>https://andrew-alarcon17.github.io/post/project-5/</link>
       <pubDate>Fri, 17 Apr 2020 11:15:58 -0400</pubDate>
