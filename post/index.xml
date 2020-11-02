@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Project 8: Crime Rates in Denver</title>
+      <link>https://andrew-alarcon17.github.io/post/project-8/</link>
+      <pubDate>Mon, 02 Nov 2020 11:25:05 -0400</pubDate>
+      
+      <guid>https://andrew-alarcon17.github.io/post/project-8/</guid>
+      <description>Data Description: This data contains criminal offenses in the City and County of Denver for the last 5 years.
+  Project Summary: For this project, I wanted to visualize the different types of crimes that appear in Denver. I also created visualizations for resampled crime data for years, months, and quarters of the year. I used Prophet to forecast this time series data to predict crime rates.
+Findings: Here is the plot of our predictions.</description>
+    </item>
+    
+    <item>
       <title>Project 7: Image Classification using CNN</title>
       <link>https://andrew-alarcon17.github.io/post/project-7/</link>
       <pubDate>Wed, 28 Oct 2020 11:25:05 -0400</pubDate>
@@ -92,17 +103,6 @@ Background: I&amp;rsquo;m an avid viewer of Pitchfork music reviews, and I wante
       <description>Data Description: This data set contains prices and attributes of 50,0000 diamonds.
 Background: This notebook contains exploratory analysis of the data. Distributions of variables were analyzed in order to understand their relationships with diamond price. Important questions such as which feature affects the price of the diamond the most and vice versa will be discussed.
 Regressions were made and measured on certain features in order to have a better understanding of how these features explain the price of a diamond.</description>
-    </item>
-    
-    <item>
-      <title>Project 8: Crime Rates in Denver</title>
-      <link>https://andrew-alarcon17.github.io/post/project-8/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://andrew-alarcon17.github.io/post/project-8/</guid>
-      <description>Data Description: This data contains criminal offenses in the City and County of Denver for the last 5 years.
-  Project Summary: For this project, I wanted to visualize the different types of crimes that appear in Denver. I also created visualizations for resampled crime data for years, months, and quarters of the year. I used Prophet to forecast this time series data to predict crime rates.
-Findings: Here is the plot of our predictions.</description>
     </item>
     
   </channel>
