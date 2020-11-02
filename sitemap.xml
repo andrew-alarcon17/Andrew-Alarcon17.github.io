@@ -91,6 +91,12 @@
   </url>
   
   <url>
+    <loc>https://andrew-alarcon17.github.io/post/project-8/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://andrew-alarcon17.github.io/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
