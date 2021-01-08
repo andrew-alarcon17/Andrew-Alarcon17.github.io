@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Project 9: Predicting Movie Genre&#39;s Based on Plot Summary</title>
+      <link>https://andrew-alarcon17.github.io/post/project-9/</link>
+      <pubDate>Thu, 07 Jan 2021 11:25:05 -0400</pubDate>
+      
+      <guid>https://andrew-alarcon17.github.io/post/project-9/</guid>
+      <description>Data Description: This data contains multiple properties of movies, such as the release year, ethnicity, director, genre, its Wikipedia page, and plot.
+  Project Summary: For this project, I wanted to be able to classify the genre of a movie based on its plot summary. To do this, I fit_transformed the data&amp;rsquo;s story (plot) column by using TfidfVectorizer. TfidfVectorizer is a useful tool that helps us transform text into a meaningful representation of numbers in order to be predicted on machine learning algorithms.</description>
+    </item>
+    
+    <item>
       <title>Project 8: Crime Rates in Denver</title>
       <link>https://andrew-alarcon17.github.io/post/project-8/</link>
       <pubDate>Mon, 02 Nov 2020 11:25:05 -0400</pubDate>
