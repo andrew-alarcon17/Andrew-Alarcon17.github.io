@@ -6,10 +6,20 @@
     <description>Recent content in Data Science Portfolio on Andrew Alarcon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Jan 2021 11:25:05 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 26 Apr 2021 11:25:05 -0400</lastBuildDate>
     
 	<atom:link href="https://andrew-alarcon17.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Project 10: Magic the Gathering - Analysis and NLP</title>
+      <link>https://andrew-alarcon17.github.io/post/project-10/</link>
+      <pubDate>Mon, 26 Apr 2021 11:25:05 -0400</pubDate>
+      
+      <guid>https://andrew-alarcon17.github.io/post/project-10/</guid>
+      <description>Data Description: This data consists of all the information present on Magic the Gathering cards, such as color identity, converted mana cost, power, toughness, text (description), and rarity to name a few.
+Project Summary: For this project, I wanted to explore the presence of creatures within each color of mana, along with those that are multi colored, and colorless. Some of the attributes that were visualized were the distributions of power, toughness, and mana cost of creatures.</description>
+    </item>
     
     <item>
       <title>Project 9: Predicting Movie Genre Based on Plot Summary</title>
