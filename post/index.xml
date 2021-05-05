@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Project 11: Video Games Sales Analysis</title>
+      <link>https://andrew-alarcon17.github.io/post/project-11/</link>
+      <pubDate>Wed, 05 May 2021 11:25:05 -0400</pubDate>
+      
+      <guid>https://andrew-alarcon17.github.io/post/project-11/</guid>
+      <description>Data Description: This data set consists of video game sales by publisher, region, genre, rating, and developer, as well as their critic and user review scores.
+Project Summary: For this project, I wanted to explore the sales of video games during the years between 1980 and 2016. More specifically, I was curious to see which publishers and developers performed the best in terms of sales, as well as what types of games were selling the most and in which regions.</description>
+    </item>
+    
+    <item>
       <title>Project 10: Magic the Gathering - Analysis and NLP</title>
       <link>https://andrew-alarcon17.github.io/post/project-10/</link>
       <pubDate>Mon, 26 Apr 2021 11:25:05 -0400</pubDate>
