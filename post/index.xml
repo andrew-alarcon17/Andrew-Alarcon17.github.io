@@ -12,23 +12,13 @@
     
     
     <item>
-      <title>Disaster Pipelines</title>
+      <title>Project 13: Disaster Pipelines</title>
       <link>https://andrew-alarcon17.github.io/post/project-13/</link>
       <pubDate>Tue, 20 Jul 2021 11:25:05 -0400</pubDate>
       
       <guid>https://andrew-alarcon17.github.io/post/project-13/</guid>
       <description>Introduction During natural disasters, there are organizations that people can contact in case of an emergency for assistance or for general knowledge about what is currently going on. This could involve situations like hurricanes, earthquakes, power outages, and more.
 In this article, I take in the many messages that people send to these organizations and try top classify the type of disaster it is related to based on the context of the message.</description>
-    </item>
-    
-    <item>
-      <title>Airbnb Homes In Boston: What to Look Out For</title>
-      <link>https://andrew-alarcon17.github.io/post/project-12/</link>
-      <pubDate>Wed, 05 May 2021 11:25:05 -0400</pubDate>
-      
-      <guid>https://andrew-alarcon17.github.io/post/project-12/</guid>
-      <description>Introduction If you’ve ever looked to book for a homestay vacation rental that you could book online, then I’m sure you’ve must’ve come across Airbnb at some point in time. You can book homes in busy cities, or more laid back towns.
-In this article, we will be diving into the Airbnb space in Boston. More specifically, we will look into which neighborhoods in Boston have the most homes, the reviews for those homes by neighborhood, and their prices.</description>
     </item>
     
     <item>
@@ -39,6 +29,16 @@ In this article, we will be diving into the Airbnb space in Boston. More specifi
       <guid>https://andrew-alarcon17.github.io/post/project-11/</guid>
       <description>Data Description: This data set consists of video game sales by publisher, region, genre, rating, and developer, as well as their critic and user review scores.
 Project Summary: For this project, I wanted to explore the sales of video games during the years between 1980 and 2016. More specifically, I was curious to see which publishers and developers performed the best in terms of sales, as well as what types of games were selling the most and in which regions.</description>
+    </item>
+    
+    <item>
+      <title>Project 12: Airbnb Homes In Boston: What to Look Out For</title>
+      <link>https://andrew-alarcon17.github.io/post/project-12/</link>
+      <pubDate>Wed, 05 May 2021 11:25:05 -0400</pubDate>
+      
+      <guid>https://andrew-alarcon17.github.io/post/project-12/</guid>
+      <description>Introduction If you’ve ever looked to book for a homestay vacation rental that you could book online, then I’m sure you’ve must’ve come across Airbnb at some point in time. You can book homes in busy cities, or more laid back towns.
+In this article, we will be diving into the Airbnb space in Boston. More specifically, we will look into which neighborhoods in Boston have the most homes, the reviews for those homes by neighborhood, and their prices.</description>
     </item>
     
     <item>
