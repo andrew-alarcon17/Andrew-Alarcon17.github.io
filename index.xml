@@ -6,10 +6,20 @@
     <description>Recent content in Data Science Portfolio on Andrew Alarcon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Jul 2021 11:25:05 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 08 Sep 2021 11:25:05 -0400</lastBuildDate>
     
 	<atom:link href="https://andrew-alarcon17.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Project 14: Starbucks Customers &amp; Offers</title>
+      <link>https://andrew-alarcon17.github.io/post/project-14/</link>
+      <pubDate>Wed, 08 Sep 2021 11:25:05 -0400</pubDate>
+      
+      <guid>https://andrew-alarcon17.github.io/post/project-14/</guid>
+      <description>Introduction This project contains mimicked user behavior on the Starbucks rewards mobile application. In this app, Starbucks sends out offers to its customers, like BOGO (buy one, get one free) or a discount. Different users get different offers. So the main goal of this project was to figure out which offers succeed the most to which types of customers.
+Data Description: There are three main data sets that we will be working with for this project.</description>
+    </item>
     
     <item>
       <title>Project 13: Disaster Pipelines</title>
