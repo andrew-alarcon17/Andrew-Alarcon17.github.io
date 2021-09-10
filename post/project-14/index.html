@@ -27,24 +27,24 @@
     
     
     <meta property="og:title" content="Project 14: Starbucks Customers &amp; Offers" />
-<meta property="og:description" content="Introduction This project contains mimicked user behavior on the Starbucks rewards mobile application. In this app, Starbucks sends out offers to its customers, like BOGO (buy one, get one free) or a discount. Different users get different offers. So the main goal of this project was to figure out which offers succeed the most to which types of customers.
+<meta property="og:description" content="Problem Introduction This project contains mimicked user behavior on the Starbucks rewards mobile application. In this app, Starbucks sends out offers to its customers, like BOGO (buy one, get one free) or a discount. Different users get different offers. So the main goal of this project was to figure out which offers succeed the most to which types of customers.
 Data Description: There are three main data sets that we will be working with for this project." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://andrew-alarcon17.github.io/post/project-14/" />
 <meta property="article:published_time" content="2021-09-08T11:25:05-04:00" />
 <meta property="article:modified_time" content="2021-09-08T11:25:05-04:00" />
 <meta itemprop="name" content="Project 14: Starbucks Customers &amp; Offers">
-<meta itemprop="description" content="Introduction This project contains mimicked user behavior on the Starbucks rewards mobile application. In this app, Starbucks sends out offers to its customers, like BOGO (buy one, get one free) or a discount. Different users get different offers. So the main goal of this project was to figure out which offers succeed the most to which types of customers.
+<meta itemprop="description" content="Problem Introduction This project contains mimicked user behavior on the Starbucks rewards mobile application. In this app, Starbucks sends out offers to its customers, like BOGO (buy one, get one free) or a discount. Different users get different offers. So the main goal of this project was to figure out which offers succeed the most to which types of customers.
 Data Description: There are three main data sets that we will be working with for this project.">
 <meta itemprop="datePublished" content="2021-09-08T11:25:05-04:00" />
 <meta itemprop="dateModified" content="2021-09-08T11:25:05-04:00" />
-<meta itemprop="wordCount" content="1460">
+<meta itemprop="wordCount" content="1625">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Project 14: Starbucks Customers &amp; Offers"/>
-<meta name="twitter:description" content="Introduction This project contains mimicked user behavior on the Starbucks rewards mobile application. In this app, Starbucks sends out offers to its customers, like BOGO (buy one, get one free) or a discount. Different users get different offers. So the main goal of this project was to figure out which offers succeed the most to which types of customers.
+<meta name="twitter:description" content="Problem Introduction This project contains mimicked user behavior on the Starbucks rewards mobile application. In this app, Starbucks sends out offers to its customers, like BOGO (buy one, get one free) or a discount. Different users get different offers. So the main goal of this project was to figure out which offers succeed the most to which types of customers.
 Data Description: There are three main data sets that we will be working with for this project."/>
 
 	
@@ -191,7 +191,7 @@ Data Description: There are three main data sets that we will be working with fo
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="introduction">Introduction</h2>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="problem-introduction">Problem Introduction</h2>
 <p>This project contains mimicked user behavior on the Starbucks rewards mobile application. In this app, Starbucks sends out offers to its customers, like BOGO (buy one, get one free) or a discount. Different users get different offers. So the main goal of this project was to figure out which offers succeed the most to which types of customers.</p>
 <h2 id="data-description">Data Description:</h2>
 <p>There are three main data sets that we will be working with for this project. They are Portfolio, Profile, and Transcript. Each dataset contains the following information:</p>
@@ -222,11 +222,20 @@ Data Description: There are three main data sets that we will be working with fo
 <li>time (int) - time in hours since start of test. The data begins at time t=0</li>
 <li>value - (dict of strings) - either an offer id or transaction amount depending on the record</li>
 </ul>
-<h2 id="tackling-the-problem">Tackling the Problem</h2>
+<h2 id="strategy-to-solve-the-problem">Strategy to Solve the Problem</h2>
 <p>After viewing what each dataset had to offer, the first thing I wanted to do was to start cleaning the datasets and changing them into a format that would seem appropriate for what I wanted to do. For the Portfolio, I thought it would be important to create categorical columns for the offer type and channel columns.</p>
 <p>As for the Profile, it was necessary to reformat the became_member_on column, and create age groups and income classes in order to create visualizations easier to understand later on in the project.</p>
 <p>The Transcript dataset required something interesting in order to understand the data a bit better. I wanted to separate the offers and transactions into two different dataframes. This allowed it to be easier to organize the information presented in the offer types and the transactions.</p>
-<h2 id="understanding-the-data">Understanding the Data</h2>
+<h2 id="metrics">Metrics</h2>
+<p>Here, I would like to discuss how we will be measuring the performance of the classification models that will be made
+We will be using the following:</p>
+<ul>
+<li>F1 Score: This is the weighted average of the Precision and Recall of the model.</li>
+<li>Precision shows the ratio of the amount of True Positives to the sum of the amount of True Positives and the amount of False Positives. This ultimately will tell us: out of all of those that were predicted as positive, how many of them are actually positive.</li>
+<li>Recall shows us the ratio of the amount of True Positives to the sum of the amount of True Positives and the amount of False Negatives. The will tell us how many of the actual positive values our model has found through labeling it as a True Positive.</li>
+<li>Accuracy will tell us how accurate our model is by dividing the number of correct prediction by the total number of predictions.</li>
+</ul>
+<h2 id="exploratory-data-analysis">Exploratory Data Analysis</h2>
 <p>Here is a brief summary of some parts for each dataset after cleaning (further visualizations and understanding can be viewed within the jupyter notebook in the github repo link at the bottom of this article).</p>
 <h3 id="portfolio-analysis">Portfolio Analysis:</h3>
 <figure>
@@ -290,7 +299,7 @@ Upper: Above 89000</p>
 </figure>
 
 <p>Here we see that the blue and purple discount offer id&rsquo;s dominate in all 4 age groups.</p>
-<h2 id="making-the-model">Making the Model</h2>
+<h2 id="modelling">Modelling</h2>
 <p>For the model, we want to be able to predict whether or not a customer will successfully complete an offer or not. Since the output is either a 1 or 0, this is a classification problem that we would like to solve.</p>
 <p>While selecting the features needed for the model, I decided to change the gender column to numerical so that I could include it in the model.
 So the features I ended up using for the model were age, bogo, discount, duration, email, gender, income, informational, member year, member month, mobile, reward, social, time, and web.
@@ -301,14 +310,6 @@ Once we have our features and predictor ready, we will split the data into train
 </figure>
 
 <p>Now for creating the model. Let&rsquo;s start with creating the Logistic Regression model. We will create two of these. One model will run on the data that is only standardized, the second will run on the data that is standardized then normalized. The results of these two will be compared.</p>
-<p>But before we make them, I would like to discuss how we will be measuring the performance of these models.
-We will be using the following:</p>
-<ul>
-<li>F1 Score: This is the weighted average of the Precision and Recall of the model.</li>
-<li>Precision shows the ratio of the amount of True Positives to the sum of the amount of True Positives and the amount of False Positives. This ultimately will tell us: out of all of those that were predicted as positive, how many of them are actually positive.</li>
-<li>Recall shows us the ratio of the amount of True Positives to the sum of the amount of True Positives and the amount of False Negatives. The will tell us how many of the actual positive values our model has found through labeling it as a True Positive.</li>
-<li>Accuracy will tell us how accurate our model is by dividing the number of correct prediction by the total number of predictions.</li>
-</ul>
 <p>Logistic Regression Model w/ Standardized Data
 <figure>
     <img src="https://andrew-alarcon17.github.io/Starbucks_Charts/Log_Reg_St.png"/> 
@@ -319,7 +320,7 @@ We will be using the following:</p>
     <img src="https://andrew-alarcon17.github.io/Starbucks_Charts/L_R_St_Norm.png"/> 
 </figure>
 </p>
-<p>We see a slightly better performance of the model after nornamalization for the F1 Score, Recall, and Accuracy.
+<p>We see a slightly better performance of the model after normalization for the F1 Score, Recall, and Accuracy.
 After we evaluate our model with cross-validation, we end up with an average Accuracy score of 71%.</p>
 <p>Now for the Random Forest Classifier&hellip;</p>
 <figure>
@@ -328,11 +329,37 @@ After we evaluate our model with cross-validation, we end up with an average Acc
 
 <p>We see that for all 4 measurements, this model is performing worse than our second Logistic Regression model.
 After cross-validation, we end up with an average Accuracy score of 70%, just 1% lower than our Logistic Regression model.</p>
-<h2 id="how-the-model-can-be-improved">How the Model Can be Improved</h2>
-<p>Further improvements can still be made to the models. For my solution, I standardized and normalized the data, and ended up having a better performing Logistic Regression model than when I only standardized the data. As for the Random Forest Classifier, it ended up performing just a little worse than the Logistic Regression model. What can be done with the Random Forest Classifier is by implementing XGBoost. This could help better train and evaluate the Random Forest Classifier.</p>
+<p>Let&rsquo;s tune both the Logistic Regression and the Random Forest models, and then compare the two.</p>
+<h2 id="hyperparameter-tuning">Hyperparameter tuning</h2>
+<figure>
+    <img src="https://andrew-alarcon17.github.io/Starbucks_Charts/LR_Tuning.png"/> 
+</figure>
+
+<p>For tuning the Logistic Regression model, we added values of C as our tuning parameter. Here, C is the inverse of regularization strength. So, the smaller values of C indicate a stronger regularization.
+(Note)
+Regularization is the technique that discourages learning a more complex model in order to avoid overfitting.</p>
+<figure>
+    <img src="https://andrew-alarcon17.github.io/Starbucks_Charts/RF_Tuning.png"/> 
+</figure>
+
+<p>To tune the Random Forest Classifier, we add a range of values for our estimators and a range of how many features we desire to be tested out. In this case, I used a range from 6 to 14 features (our max amount of features).</p>
+<h2 id="results">Results</h2>
+<p><figure>
+    <img src="https://andrew-alarcon17.github.io/Starbucks_Charts/LR_Final_Results.png"/> 
+</figure>
+
+Here are the final results for the Logistic Regression model.</p>
+<p><figure>
+    <img src="https://andrew-alarcon17.github.io/Starbucks_Charts/RF_Final_Results.png"/> 
+</figure>
+
+And here are the final results for the Random Forest Classifier.</p>
+<p>We can see that for the F1 Score, Recall, and Accuracy, the Logistic Regression model beats out the Random Forest Classifier. However, for both models, the Precision score is very very close.</p>
 <h2 id="reflection">Reflection</h2>
 <p>This project was definitely a very welcoming challenge. What made it particularly challenging was how open it was right from the beginning. As a student, I enjoyed figuring out how to navigate this level of freedom when dealing with such a vast amount of data, and trying to figure out an answer to the main problem at hand.
 While working on this project, I was able to look back on previous projects to help myself out what should come next in the Data Science process. Cleaning, organizing, and analyzing the data was very insightful, and figuring out how to transform the data to prepare to create a machine learning model was challenging and a great learning experience. I was able to implement all of the major skills I learned throughout this course onto this project, and that is exactly what I enjoyed the most while working on this final capstone project.</p>
+<h2 id="improvements">Improvements</h2>
+<p>Further improvements can still be made to the models. For my solution, I standardized and normalized the data, and ended up having a better performing Logistic Regression model than when I only standardized the data. As for the Random Forest Classifier, it ended up performing just a little worse than the Logistic Regression model. What can be done with the Random Forest Classifier is by implementing XGBoost. This could help better train and evaluate the Random Forest Classifier.</p>
 <p><a href="https://github.com/andrew-alarcon17/Starbucks_Capstone">Link to Github Repository</a></p>
 <ul class="pa0">
   

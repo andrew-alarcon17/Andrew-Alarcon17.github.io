@@ -17,7 +17,7 @@
       <pubDate>Wed, 08 Sep 2021 11:25:05 -0400</pubDate>
       
       <guid>https://andrew-alarcon17.github.io/post/project-14/</guid>
-      <description>Introduction This project contains mimicked user behavior on the Starbucks rewards mobile application. In this app, Starbucks sends out offers to its customers, like BOGO (buy one, get one free) or a discount. Different users get different offers. So the main goal of this project was to figure out which offers succeed the most to which types of customers.
+      <description>Problem Introduction This project contains mimicked user behavior on the Starbucks rewards mobile application. In this app, Starbucks sends out offers to its customers, like BOGO (buy one, get one free) or a discount. Different users get different offers. So the main goal of this project was to figure out which offers succeed the most to which types of customers.
 Data Description: There are three main data sets that we will be working with for this project.</description>
     </item>
     
@@ -27,7 +27,7 @@ Data Description: There are three main data sets that we will be working with fo
       <pubDate>Tue, 20 Jul 2021 11:25:05 -0400</pubDate>
       
       <guid>https://andrew-alarcon17.github.io/post/project-13/</guid>
-      <description>Introduction During natural disasters, there are organizations that people can contact in case of an emergency for assistance or for general knowledge about what is currently going on. This could involve situations like hurricanes, earthquakes, power outages, and more.
+      <description>Problem Introduction Strategy to Solve the Problem Metrics Exploratory Data Analysis Modelling Hyperparameter tuning Results Reflection Improvements Introduction During natural disasters, there are organizations that people can contact in case of an emergency for assistance or for general knowledge about what is currently going on. This could involve situations like hurricanes, earthquakes, power outages, and more.
 In this article, I take in the many messages that people send to these organizations and try top classify the type of disaster it is related to based on the context of the message.</description>
     </item>
     
