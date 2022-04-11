@@ -12,51 +12,61 @@
     
     
     <item>
-      <title>Project 14: Starbucks Customers &amp; Offers</title>
+      <title>Project 14: BrainStation Capstone - Movie Genre Classification</title>
       <link>https://andrew-alarcon17.github.io/post/project-14/</link>
-      <pubDate>Thu, 09 Sep 2021 11:25:05 -0400</pubDate>
+      <pubDate>Mon, 11 Apr 2022 11:25:05 -0400</pubDate>
       
       <guid>https://andrew-alarcon17.github.io/post/project-14/</guid>
+      <description>Introduction This project was the final project for the BrainStation Data Science Bootcamp. Students were allowed to pick any topic of their choice, so I decided to create a project that classifies movie genres.
+IMDb is a website that contains information on thousands of movies and shows that have been released over the years. Each movie or show has its own description and genre to go along with it. Through the perspective of someone who make’s their own movie or show, you would want to adequately create a description that captures the genre of your work.</description>
+    </item>
+    
+    <item>
+      <title>Project 13: Udacity Capstone - Starbucks Customers &amp; Offers</title>
+      <link>https://andrew-alarcon17.github.io/post/project-13/</link>
+      <pubDate>Thu, 09 Sep 2021 11:25:05 -0400</pubDate>
+      
+      <guid>https://andrew-alarcon17.github.io/post/project-13/</guid>
       <description>Problem Introduction This project contains mimicked user behavior on the Starbucks rewards mobile application. In this app, Starbucks sends out offers to its customers, like BOGO (buy one, get one free) or a discount. Different users get different offers. So the main goal of this project was to figure out which offers succeed the most to which types of customers.
 Data Description: There are three main data sets that we will be working with for this project.</description>
     </item>
     
     <item>
-      <title>Project 13: Disaster Pipelines</title>
-      <link>https://andrew-alarcon17.github.io/post/project-13/</link>
+      <title>Project 12: Disaster Pipelines</title>
+      <link>https://andrew-alarcon17.github.io/post/project-12/</link>
       <pubDate>Tue, 20 Jul 2021 11:25:05 -0400</pubDate>
       
-      <guid>https://andrew-alarcon17.github.io/post/project-13/</guid>
+      <guid>https://andrew-alarcon17.github.io/post/project-12/</guid>
       <description>Project Introduction During natural disasters, there are organizations that people can contact in case of an emergency for assistance or for general knowledge about what is currently going on. This could involve situations like hurricanes, earthquakes, power outages, and more.
 In this article, I take in the many messages that people send to these organizations and try top classify the type of disaster it is related to based on the context of the message.</description>
     </item>
     
     <item>
       <title>Project 11: Video Games Sales Analysis</title>
-      <link>https://andrew-alarcon17.github.io/post/project-11/</link>
+      <link>https://andrew-alarcon17.github.io/post/project-10/</link>
       <pubDate>Wed, 05 May 2021 11:25:05 -0400</pubDate>
       
-      <guid>https://andrew-alarcon17.github.io/post/project-11/</guid>
+      <guid>https://andrew-alarcon17.github.io/post/project-10/</guid>
       <description>Data Description: This data set consists of video game sales by publisher, region, genre, rating, and developer, as well as their critic and user review scores.
 Project Summary: For this project, I wanted to explore the sales of video games during the years between 1980 and 2016. More specifically, I was curious to see which publishers and developers performed the best in terms of sales, as well as what types of games were selling the most and in which regions.</description>
     </item>
     
     <item>
       <title>Project 12: Airbnb Homes In Boston: What to Look Out For</title>
-      <link>https://andrew-alarcon17.github.io/post/project-12/</link>
+      <link>https://andrew-alarcon17.github.io/post/project-11/</link>
       <pubDate>Wed, 05 May 2021 11:25:05 -0400</pubDate>
       
-      <guid>https://andrew-alarcon17.github.io/post/project-12/</guid>
+      <guid>https://andrew-alarcon17.github.io/post/project-11/</guid>
       <description>Introduction If you’ve ever looked to book for a homestay vacation rental that you could book online, then I’m sure you’ve must’ve come across Airbnb at some point in time. You can book homes in busy cities, or more laid back towns.
 In this article, we will be diving into the Airbnb space in Boston. More specifically, we will look into which neighborhoods in Boston have the most homes, the reviews for those homes by neighborhood, and their prices.</description>
     </item>
     
     <item>
-      <title>Project 10: Magic the Gathering - Analysis and NLP</title>
-      <link>https://andrew-alarcon17.github.io/post/project-10/</link>
+      <title>Project 9: Magic the Gathering - Analysis and NLP</title>
+      <link>https://andrew-alarcon17.github.io/post/project-9/</link>
       <pubDate>Mon, 26 Apr 2021 11:25:05 -0400</pubDate>
       
-      <guid>https://andrew-alarcon17.github.io/post/project-10/</guid>
+      <guid>https://andrew-alarcon17.github.io/post/project-9/</guid>
       <description>Data Description: This data consists of all the information present on Magic the Gathering cards, such as color identity, converted mana cost, power, toughness, text (description), and rarity to name a few.
 Project Summary: For this project, I wanted to explore the presence of creatures within each color of mana, along with those that are multi colored, and colorless. Some of the attributes that were visualized were the distributions of power, toughness, and mana cost of creatures.</description>
     </item>
@@ -153,15 +163,6 @@ Background: I&amp;rsquo;m an avid viewer of Pitchfork music reviews, and I wante
       <description>Data Description: This data set contains prices and attributes of 50,0000 diamonds.
 Background: This notebook contains exploratory analysis of the data. Distributions of variables were analyzed in order to understand their relationships with diamond price. Important questions such as which feature affects the price of the diamond the most and vice versa will be discussed.
 Regressions were made and measured on certain features in order to have a better understanding of how these features explain the price of a diamond.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://andrew-alarcon17.github.io/post/project-15/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://andrew-alarcon17.github.io/post/project-15/</guid>
-      <description></description>
     </item>
     
   </channel>
