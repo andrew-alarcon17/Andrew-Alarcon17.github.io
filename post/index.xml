@@ -62,16 +62,6 @@ Project Summary: For this project, I wanted to explore the presence of creatures
     </item>
     
     <item>
-      <title>Project 9: Predicting Movie Genre Based on Plot Summary</title>
-      <link>https://andrew-alarcon17.github.io/post/project-9/</link>
-      <pubDate>Thu, 07 Jan 2021 11:25:05 -0400</pubDate>
-      
-      <guid>https://andrew-alarcon17.github.io/post/project-9/</guid>
-      <description>Data Description: This data contains multiple properties of movies, such as the release year, ethnicity, director, genre, its Wikipedia page, and plot.
-  Project Summary: For this project, I wanted to be able to classify the genre of a movie based on its plot summary. To do this, I fit_transformed the data&amp;rsquo;s story (plot) column by using TfidfVectorizer. TfidfVectorizer is a useful tool that helps us transform text into a meaningful representation of numbers in order to be predicted on machine learning algorithms.</description>
-    </item>
-    
-    <item>
       <title>Project 8: Crime Rates in Denver</title>
       <link>https://andrew-alarcon17.github.io/post/project-8/</link>
       <pubDate>Mon, 02 Nov 2020 11:25:05 -0400</pubDate>
@@ -163,6 +153,15 @@ Background: I&amp;rsquo;m an avid viewer of Pitchfork music reviews, and I wante
       <description>Data Description: This data set contains prices and attributes of 50,0000 diamonds.
 Background: This notebook contains exploratory analysis of the data. Distributions of variables were analyzed in order to understand their relationships with diamond price. Important questions such as which feature affects the price of the diamond the most and vice versa will be discussed.
 Regressions were made and measured on certain features in order to have a better understanding of how these features explain the price of a diamond.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://andrew-alarcon17.github.io/post/project-15/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrew-alarcon17.github.io/post/project-15/</guid>
+      <description></description>
     </item>
     
   </channel>
